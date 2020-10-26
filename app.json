@@ -1,6 +1,38 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "OUC课程评价",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/icon/Homehomepagemenu.png",
+      "selectedIconPath": "assets/icon/Homehomepagemenu_1.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/icon/category.png",
+        "selectedIconPath": "assets/icon/category_fill.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "个人",
+        "iconPath": "assets/icon/user-weixuan1.png",
+        "selectedIconPath": "assets/icon/user-xuanzhong1.png"
+      }
   ]
+  }
 }
