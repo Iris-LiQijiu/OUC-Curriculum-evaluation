@@ -1,0 +1,10 @@
+
+
+<form bindsubmit="Submit2">
+<input name="searchname" placeholder="请输入课程名称"></input>
+<button type="primary" form-type="submit">搜索</button>
+<view wx:for="{{Teacher}}">
+  {{item.classname}}-
+  {{item.teacher}}
+</view>
+</form>
