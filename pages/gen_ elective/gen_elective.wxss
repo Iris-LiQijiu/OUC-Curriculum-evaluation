@@ -1,0 +1,8 @@
+/* pages/gen_ elective/gen_elective.wxss */
+.topnav{
+  position: fixed;
+  top: 85rpx;
+  z-index:99;
+  background: #fff;
+  width: 100%;
+}

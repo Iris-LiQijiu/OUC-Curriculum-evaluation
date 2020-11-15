@@ -1,0 +1,55 @@
+<!-- 横向滑动列表 -->
+  <text style='font-size:15px;padding:10px;'>数学</text>
+  <scroll-view scroll-x class="scroll-x">
+    <view wx:for="{{math_list}}" wx:key="{{index}}" class="view-parent">
+      <view class="view-item">{{item.txt}}</view>
+    </view>
+  </scroll-view>
+  <text style='font-size:15px;padding:10px;'>物理</text>
+  <scroll-view scroll-x class="scroll-x">
+    <view wx:for="{{physic_list}}" wx:key="{{index}}" class="view-parent">
+      <view class="view-item">{{item.txt}}</view>
+    </view>
+  </scroll-view>
+  <text style='font-size:15px;padding:10px;'>外语</text>
+  <scroll-view scroll-x class="scroll-x">
+    <view wx:for="{{english_list}}" wx:key="{{index}}" class="view-parent">
+      <view class="view-item">{{item.txt}}</view>
+    </view>
+  </scroll-view>
+  <text style='font-size:15px;padding:10px;'>政治</text>
+  <scroll-view scroll-x class="scroll-x">
+    <view wx:for="{{politic_list}}" wx:key="{{index}}" class="view-parent">
+      <view class="view-item">{{item.txt}}</view>
+    </view>
+  </scroll-view>
+  <text style='font-size:15px;padding:10px;'>体育</text>
+  <scroll-view scroll-x class="scroll-x">
+    <view wx:for="{{sport_list}}" wx:key="{{index}}" class="view-parent">
+      <view class="view-item">{{item.txt}}</view>
+    </view>
+  </scroll-view>
+<!-- 分隔符 -->
+<view class='divider' />
+<!-- 课程信息 -->
+<scroll-view scroll-y class="scroll-y">
+  <view class="text">
+    <view class="left-text">
+      <text>高等数学Ⅰ\n</text>
+      <text class="teacher-text">教师：</text>
+    </view>
+    <view class="right-text">
+      <text class="score-text">评分：</text>
+    </view>
+  </view>
+  <view class="text">
+    <view class="left-text">
+      <text>线性代数\n</text>
+      <text class="teacher-text">教师：</text>
+    </view>
+    <view class="right-text">
+      <text class="score-text">评分：</text>
+    </view>
+  </view>
+</scroll-view>
+    
