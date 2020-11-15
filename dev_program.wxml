@@ -1,0 +1,8 @@
+  <!-- 横向滑动列表 -->
+<text style='font-size:15px;padding:75px;'>您要的在这里(❐_❐)✧</text>
+  <scroll-view scroll-x class="scroll-x">
+    <view wx:for="{{math_list}}" wx:key="{{index}}" class="view-parent">
+      <view class="view-item">{{item.txt}}</view>
+    </view>
+  </scroll-view>
+
